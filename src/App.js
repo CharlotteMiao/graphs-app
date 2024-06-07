@@ -14,16 +14,16 @@ function App() {
       </p>
       <div className="chart-panel">
         <div className="chart">
-          <h3 className="chart-title">Pie graph</h3>
+          <h2 className="chart-title">Pie graph</h2>
           <BasicPie />
         </div>
         <div className="bar-chart">
-          <h3 className="chart-title">Bar Graphs</h3>
+          <h2 className="chart-title">Bar Graphs</h2>
           <BasicBarsA />
           <BasicBarsB />
         </div>
         <div className="chart">
-          <h3 className="chart-title">Scatter</h3>
+          <h2 className="chart-title">Scatter</h2>
           <BasicScatter />
         </div>
       </div>
